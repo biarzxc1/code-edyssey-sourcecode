@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Odyssey" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">#06040B</item>
+        <item name="android:navigationBarColor">#06040B</item>
+        <item name="android:windowBackground">#06040B</item>
+
+        <!-- Android 12+ (API 31+) Native Window Splash: Pure dark background with zero white icon box -->
+        <item name="android:windowSplashScreenBackground">#06040B</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent_splash</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#00000000</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+
+        <!-- Global Modern Poppins Font -->
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- Typography overrides for Material Components -->
+        <item name="textAppearanceHeadline1">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline2">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline3">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline4">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline5">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline6">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceSubtitle1">@style/OdysseyFontBody</item>
+        <item name="textAppearanceSubtitle2">@style/OdysseyFontBody</item>
+        <item name="textAppearanceBody1">@style/OdysseyFontBody</item>
+        <item name="textAppearanceBody2">@style/OdysseyFontBody</item>
+        <item name="textAppearanceButton">@style/OdysseyFontButton</item>
+        <item name="textAppearanceCaption">@style/OdysseyFontBody</item>
+    </style>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardDialogRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="16dp"
+        app:strokeWidth="1.8dp"
+        app:strokeColor="#7C3AED"
+        app:cardBackgroundColor="#F2140A28">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            android:paddingTop="28dp"
+            android:paddingBottom="24dp">
+
+            <!-- Type Icon Container -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardAlertIcon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="2dp"
+                app:strokeColor="#5EEAD4"
+                app:cardBackgroundColor="#22143D"
+                android:layout_marginBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/ivAlertIcon"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_check_circle"
+                    app:tint="#5EEAD4" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Alert Title -->
+            <TextView
+                android:id="@+id/tvAlertTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Alert Title"
+                android:textColor="#5EEAD4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.04"
+                android:layout_marginBottom="12dp" />
+
+            <!-- Alert Message -->
+            <TextView
+                android:id="@+id/tvAlertMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Alert details and message content go here."
+                android:textColor="#E2E8F0"
+                android:textSize="14sp"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Action Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAlertPositive"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="CONTINUE"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="#8A2BE2"
+                app:strokeColor="#C084FC"
+                app:strokeWidth="1.2dp"
+                app:cornerRadius="16dp"
+                app:elevation="6dp"
+                android:letterSpacing="0.08" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

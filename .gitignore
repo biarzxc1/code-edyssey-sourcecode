@@ -1,0 +1,30 @@
+﻿# Build directories
+.gradle/
+build/
+**/build/
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Keystores & sensitive keys
+*.keystore
+*.jks
+release.keystore
+
+# Temporary screenshots and logs from development
+*.png
+*.xml
+*.log
+*.zip
+*.otf
+
+# Keep essential Android resources and files
+!android/app/src/main/res/**/*.png
+!android/app/src/main/res/**/*.xml
+!android/app/src/main/res/font/*.ttf
+!android/app/src/main/res/font/*.xml
+!android/app/src/main/res/raw/*
+!android/app/src/main/AndroidManifest.xml
+
+# Allow root APK release distribution
+!Code-Odyssey-v1.0.apk

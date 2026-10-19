@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        android:font="@font/times"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/times"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+    <font
+        android:font="@font/timesbd"
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        app:font="@font/timesbd"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
+    <font
+        android:font="@font/timesi"
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        app:font="@font/timesi"
+        app:fontStyle="italic"
+        app:fontWeight="400" />
+    <font
+        android:font="@font/timesbi"
+        android:fontStyle="italic"
+        android:fontWeight="700"
+        app:font="@font/timesbi"
+        app:fontStyle="italic"
+        app:fontWeight="700" />
+</font-family>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deep Cosmic Purple Theme -->
+    <color name="bg">#090614</color>
+    <color name="card_bg">#EA1B1233</color> <!-- Glassmorphic translucent royal purple -->
+    <color name="card_border">#582B8C</color>
+    <color name="card_border_glow">#9D4EDD</color>
+    <color name="selected_card">#3D1E6D</color>
+
+    <!-- Royal & Neon Purple Scale -->
+    <color name="purple">#8A2BE2</color>
+    <color name="purple_light">#A855F7</color>
+    <color name="purple_bright">#C084FC</color>
+    <color name="purple_dark">#581C87</color>
+    <color name="purple_deep">#1F1138</color>
+    <color name="purple_pill_bg">#180E2B</color>
+
+    <!-- Accents & Text -->
+    <color name="cyan">#5EEAD4</color>
+    <color name="white">#F8FAFC</color>
+    <color name="text_muted">#D8B4FE</color>
+    <color name="muted_lavender">#D8B4FE</color>
+    <color name="text_hint">#9484B8</color>
+
+    <!-- Hearts & Feedback -->
+    <color name="heart_active">#FF3B69</color>
+    <color name="heart_lost">#4A235A</color>
+    <color name="correct_green">#10B981</color>
+    <color name="error_red">#EF4444</color>
+</resources>

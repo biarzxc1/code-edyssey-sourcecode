@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Odyssey" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">#06040B</item>
+        <item name="android:navigationBarColor">#06040B</item>
+        <item name="android:windowBackground">#06040B</item>
+
+        <!-- Global Modern Poppins Font -->
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+
+        <!-- Typography overrides for Material Components -->
+        <item name="textAppearanceHeadline1">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline2">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline3">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline4">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline5">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceHeadline6">@style/OdysseyFontHeadline</item>
+        <item name="textAppearanceSubtitle1">@style/OdysseyFontBody</item>
+        <item name="textAppearanceSubtitle2">@style/OdysseyFontBody</item>
+        <item name="textAppearanceBody1">@style/OdysseyFontBody</item>
+        <item name="textAppearanceBody2">@style/OdysseyFontBody</item>
+        <item name="textAppearanceButton">@style/OdysseyFontButton</item>
+        <item name="textAppearanceCaption">@style/OdysseyFontBody</item>
+    </style>
+
+    <style name="OdysseyFontHeadline" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OdysseyFontBody" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="OdysseyFontButton" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
